@@ -1,0 +1,11 @@
+show dbs
+show db
+db.sensor_readings.find()
+ls
+use sensor_readings
+show dbs
+ls
+db.sensor_readings.find()
+db.sensor_readings.insertOne({ "sensor_id": "unique_sensor_id", "value": "<reading_value>", "timestamp": "ISO8601_formatted_date_time" })
+use sensor_readings
+show dbs
